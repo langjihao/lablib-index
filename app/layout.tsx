@@ -7,10 +7,10 @@ import Footer from "@/components/layout/footer";
 import { Suspense } from "react";
 
 export const metadata = {
-  title: "Precedent - Building blocks for your Next.js project",
+  title: "LabLib - An AI-build-in library for an aifying laboratory.",
   description:
-    "Precedent is the all-in-one solution for your Next.js project. It includes a design system, authentication, analytics, and more.",
-  metadataBase: new URL("https://precedent.dev"),
+    "让一部分课题组先AI起来",
+  metadataBase: new URL("https://www.lablib.top"),
   themeColor: "#FFF",
 };
 

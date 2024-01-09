@@ -23,17 +23,17 @@ export default function NavBar({ session }: { session: Session | null }) {
       >
         <div className="mx-5 flex h-16 max-w-screen-xl items-center justify-between w-full">
           <Link href="/" className="flex items-center font-display text-2xl">
-            <Image
+            {/* <Image
               src="/logo.png"
               alt="Precedent logo"
               width="30"
               height="30"
               className="mr-2 rounded-sm"
-            ></Image>
-            <p>Precedent</p>
+            ></Image> */}
+            <p>LabLib</p>
           </Link>
           <div>
-            {session ? (
+            {/* {session ? (
               <UserDropdown session={session} />
             ) : (
               <button
@@ -42,7 +42,7 @@ export default function NavBar({ session }: { session: Session | null }) {
               >
                 Sign In
               </button>
-            )}
+            )} */}
           </div>
         </div>
       </div>

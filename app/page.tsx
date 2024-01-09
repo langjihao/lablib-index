@@ -5,7 +5,6 @@ import WebVitals from "@/components/home/web-vitals";
 import ComponentGrid from "@/components/home/component-grid";
 import Image from "next/image";
 import { nFormatter } from "@/lib/utils";
-import  MyComponent  from "@/components/home/navCard";
 
 export default async function Home() {
   const feishuUrl = 'https://opmg199o6o.feishu.cn/wiki/AvGEwcNUpigSrIkxKcAcXBPDnGg?table=tblK8f1xXkfNuMh1&view=vew0Tu0VCB'
